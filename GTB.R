@@ -1,4 +1,4 @@
-data <- read.table('Galaxy2-[different_gene].txt',sep=',',header = T)
+data <- read.table('different_gene.txt',sep=',',header = T)
 
 suppressWarnings(suppressMessages(library(clusterProfiler)))
 suppressWarnings(suppressMessages(library(ggplot2)))
